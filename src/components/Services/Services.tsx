@@ -26,7 +26,7 @@ export function Services() {
                         initial="hidden"
                         animate="show"
                         exit="hidden"
-                        className="max-w-md">Focused on promoting brands and businesses in general, my interdisciplinary nature allows me to address all parts of the problem to provide a solution at the client's request.
+                        className="max-w-md">Focused on promoting brands and businesses in general, my interdisciplinary nature allows me to address all parts of the problem to provide a solution at the clients request.
                     </motion.p>
                 </div>
 
