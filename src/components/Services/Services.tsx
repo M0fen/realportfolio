@@ -19,14 +19,14 @@ export function Services() {
                         animate="show"
                         exit="hidden"
                     >
-                        Mis <span className="text-secondary">servicios.</span>
+                        My<span className="text-secondary">Services.</span>
                     </motion.h1>
                     <motion.p
                         variants={fadeIn('up', 0.5)}
                         initial="hidden"
                         animate="show"
                         exit="hidden"
-                        className="max-w-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate enim urna, nec fringilla mauris mattis a. In mollis vitae velit ac vehicula.
+                        className="max-w-md">Focused on promoting brands and businesses in general, my interdisciplinary nature allows me to address all parts of the problem to provide a solution at the client's request.
                     </motion.p>
                 </div>
 

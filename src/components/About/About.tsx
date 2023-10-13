@@ -19,8 +19,8 @@ export function About() {
                 animate={motionTransitionsAbout.animate}
                 transition={motionTransitionsAbout.transition}
             >
-                <h1 className="mb-6 md:text-4xl">Creando webs con <br /> <span className="text-secondary">diseños espectaculares</span></h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate enim urna, nec fringilla mauris mattis a. In mollis vitae velit ac vehicula. </p>
+                <h1 className="mb-6 md:text-4xl">Creating webs with <br /> <span className="text-secondary">Amazing designs</span></h1>
+                <p>Creating web with amazing design is not only a skill, but an art. It is the art of transforming ideas into reality, of making the impossible possible, of bringing magic to the web. </p>
 
                 <div className="grid justify-between grid-cols-2 gap-3 my-8 md:flex md:grid-cols-4 md:gap-6">
                     {dataCounter.map(({ id, endCounter, text, lineRight, lineRightMobile }) => (

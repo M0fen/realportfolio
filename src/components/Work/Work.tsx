@@ -25,7 +25,7 @@ export function Work() {
     }
 
     return (
-        <div className="h-screen">
+        <div className="h-screen ">
             <AvatarWorks />
             <Circle />
             <div className="grid pb-32 md:min-h-screen mt-28 md:mt-0 place-items-center">
@@ -36,7 +36,7 @@ export function Work() {
                         animate="show"
                         exit="hidden"
                         className="my-5 text-2xl text-center md:text-4-xl"
-                    >Mis últimos  <span className="text-secondary">trabajos realizados.</span>
+                    >My Latest  <span className="text-secondary">Works done to date.</span>
                     </motion.h1>
                     <motion.div
                         className="flex flex-col items-center h-full gap-5 px-2 md:flex-row"

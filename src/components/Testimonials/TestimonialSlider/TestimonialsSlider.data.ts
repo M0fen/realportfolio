@@ -1,30 +1,23 @@
 export const testimonialsData = [
   {
     id: 0,
-    name: "Juan Palomo",
+    name: "Julián Anturi",
     testimonial:
-      "Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate enim urna, nec fringilla mauris mattis a. In mollis vitae velit ac vehicula.",
+      "Programming is always a challenge, working with Carlos in Teilur as students has allowed me to learn about a more human component in the need to solve a problem.",
     image: "profile1.png",
   },
   {
     id: 1,
-    name: "Juan Palomo",
+    name: "Andrés Cuartas",
     testimonial:
-      "Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate enim urna, nec fringilla mauris mattis a. In mollis vitae velit ac vehicula.",
+      "Trabajar de la mano de Carlos en HABITAT ha sido una experiencia de descubrir las posibilidades que existen en un sueño.",
     image: "profile2.png",
   },
   {
     id: 2,
-    name: "Juan Palomo",
+    name: "Cristian Riaño",
     testimonial:
-      "Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate enim urna, nec fringilla mauris mattis a. In mollis vitae velit ac vehicula.",
+      "El trabajo de Carlos con mi Negocio Manjares al Carbón ha sido brillante y ha marcado un gran impacto en la visibilidad de mi marca.",
     image: "profile3.png",
-  },
-  {
-    id: 3,
-    name: "Juan Palomo",
-    testimonial:
-      "Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate enim urna, nec fringilla mauris mattis a. In mollis vitae velit ac vehicula.",
-    image: "profile4.png",
   },
 ];

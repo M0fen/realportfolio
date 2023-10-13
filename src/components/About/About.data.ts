@@ -1,31 +1,24 @@
 export const dataCounter = [
   {
     id: 0,
-    endCounter: 10,
-    text: "Años de experiencia",
+    endCounter: 1,
+    text: "Año de experiencia",
     lineRight: true,
     lineRightMobile: true,
   },
   {
     id: 1,
-    endCounter: 80,
-    text: "Clientes satisfechos",
+    endCounter: 20,
+    text: "Proyectos Realizados",
     lineRight: true,
     lineRightMobile: false,
   },
   {
     id: 2,
-    endCounter: 220,
-    text: "Proyectos finalizados",
+    endCounter: 15,
+    text: "Technologies",
     lineRight: true,
     lineRightMobile: true,
-  },
-  {
-    id: 3,
-    endCounter: 30,
-    text: "Premios ganadores",
-    lineRight: false,
-    lineRightMobile: false,
   },
 ];
 
@@ -35,13 +28,17 @@ export const dataAboutSkills = [
     text: "Skills",
     skills: [
       {
-        title: "Frontend Developer",
-        date: "2017",
+        title: "Web Design",
+        date: "2023",
       },
       {
-        title: "Full Stack Developer",
-        date: "2020",
+        title: "Branding Coach",
+        date: "2023",
       },
+      {
+        title:"Digital Marketing Coach",
+        date:2022
+      }
     ],
   },
   {
@@ -49,8 +46,8 @@ export const dataAboutSkills = [
     text: "Experiencia",
     skills: [
       {
-        title: "Netflix Inc.",
-        date: "2015",
+        title: "Frontend Developer",
+        date: "2023",
       },
       {
         title: "Amazon",
@@ -72,18 +69,5 @@ export const dataAboutSkills = [
       },
     ],
   },
-  {
-    id: 3,
-    text: "Masters",
-    skills: [
-      {
-        title: "Frontend Developer",
-        date: "2017",
-      },
-      {
-        title: "Full Stack Developer",
-        date: "2020",
-      },
-    ],
-  },
+
 ];

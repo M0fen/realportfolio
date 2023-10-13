@@ -11,26 +11,21 @@ export const serviceData = [
     {
         icon: <RxCrop />,
         title: "Branding",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        description: "My ability to understand the needs of a brand makes me a perfect alternative for you.",
     },
     {
         icon: <RxPencil2 />,
         title: "Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        description: "My passion for the front end means that any idea from the client can become a reality very efficiently.",
     },
     {
         icon: <RxDesktop />,
         title: "Development",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    },
-    {
-        icon: <RxReader />,
-        title: "Copywriting",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        description: "In general, my programming skills are exceptional, even more so if the objectives involve adding commercial value to the work being done.",
     },
     {
         icon: <RxRocket />,
         title: "SEO",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        description: "Leveraging societal trends in seeking goods and services, I can boost your company's market standing.",
     },
 ];

@@ -1,94 +1,63 @@
-import { SiTailwindcss, SiGithub, SiReact, SiNextdotjs, SiTestinglibrary } from "react-icons/si";
+import {
+  SiTailwindcss,
+  SiGithub,
+  SiReact,
+  SiNextdotjs,
+  SiTestinglibrary,
+} from 'react-icons/si';
 
 export const cardContent = [
   {
     id: 0,
-    title: "Calculator",
-    description:
-      "Calculator project made by React and Tailwind CSS. ",
-    imageUrl: "/work-1.jpeg",
+    title: 'HABITAT',
+    description: 'HABITAT is a fully functional real state Website operating in Pereira,Colombia. ',
+    imageUrl: '/work-1.jpeg',
     skills: [
       {
-        icon: <SiReact size="40" />
+        icon: <SiReact size="40" />,
       },
       {
-        icon: <SiTailwindcss size="40" />
+        icon: <SiTailwindcss size="40" />,
       },
       {
-        icon: <SiTestinglibrary size="40" />
+        icon: <SiTestinglibrary size="40" />, // Reemplazado por MERN
       },
-    ]
+    ],
   },
   {
     id: 1,
-    title: "Portfolio React",
+    title: 'SmartBlog',
     description:
-      "This is a description2, sjdnfsdf idfs sdhfbsdf jds fjsd gf sjdgns",
-    imageUrl: "/work-2.jpeg",
+      'SmartBlog is an IA-powered traveling Blog generator',
+    imageUrl: '/work-2.jpeg',
     skills: [
       {
-        icon: <SiNextdotjs size="40" />
+        icon: <SiNextdotjs size="40" />,
       },
       {
-        icon: <SiTailwindcss size="40" />
+        icon: <SiTailwindcss size="40" />,
       },
       {
-        icon: <SiGithub size="40" />
+        icon: <SiGithub size="40" />,
       },
-    ]
+    ],
   },
   {
     id: 2,
-    title: "Strapi",
+    title: 'MofenTours',
     description:
-      "This is a description, sjdnfsdf idfs sdhfbsdf jds fjsd gf sjdgns",
-    imageUrl: "/work-3.jpeg",
+      'A website that can provides beautiful content about a tours agency and its implemented with Stripe for payments',
+    imageUrl: '/work-3.jpeg',
     skills: [
       {
-        icon: <SiNextdotjs size="40" />
+        icon: <SiNextdotjs size="40" />,
       },
       {
-        icon: <SiTailwindcss size="40" />
+        icon: <SiTailwindcss size="40" />,
       },
       {
-        icon: <SiGithub size="40" />
+        icon: <SiReact size="40" />, // Reemplazado por Node.js
       },
-    ]
-  },
-  {
-    id: 3,
-    title: "Prestashop",
-    description:
-      "This is a description, sjdnfsdf idfs sdhfbsdf jds fjsd gf sjdgns",
-    imageUrl: "/work-4.jpeg",
-    skills: [
-      {
-        icon: <SiNextdotjs size="40" />
-      },
-      {
-        icon: <SiTailwindcss size="40" />
-      },
-      {
-        icon: <SiGithub size="40" />
-      },
-    ]
-  },
-  {
-    id: 4,
-    title: "E-Commerce React",
-    description:
-      "This is a description, sjdnfsdf idfs sdhfbsdf jds fjsd gf sjdgns",
-    imageUrl: "/work-5.jpeg",
-    skills: [
-      {
-        icon: <SiNextdotjs size="40" />
-      },
-      {
-        icon: <SiTailwindcss size="40" />
-      },
-      {
-        icon: <SiGithub size="40" />
-      },
-    ]
+    ],
   },
 ];

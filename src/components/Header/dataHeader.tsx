@@ -1,28 +1,20 @@
-import { RiInstagramLine, RiYoutubeLine, RiTiktokLine, RiPinterestLine, RiTwitterXFill, RiBehanceLine } from "react-icons/ri";
+import { RiInstagramLine, RiGithubLine, RiLinkedinBoxLine, RiMailLine } from "react-icons/ri";
 
 export const socialNetworks = [
   {
     logo: <RiInstagramLine size="40" />,
-    src: "https://instagram.com/tarredev",
+    src: "https://www.instagram.com/puntoneutr0/",
   },
   {
-    logo: <RiYoutubeLine size="40" />,
-    src: "https://youtube.com/@tarredev",
+    logo: <RiMailLine size="40" />,
+    src: "mailto:carloscaicedo188@gmail.com",
   },
   {
-    logo: <RiTiktokLine size="40" />,
-    src: "https://tiktok.com/@tarredev",
+    logo: <RiLinkedinBoxLine size="40" />,
+    src: "https://www.linkedin.com/in/carlos-caicedo-56a6581b1/",
   },
   {
-    logo: <RiPinterestLine size="40" />,
-    src: "https://pinterest.com/tarredev",
-  },
-  {
-    logo: <RiTwitterXFill size="40" />,
-    src: "https://twitter.com/tarredev",
-  },
-  {
-    logo: <RiBehanceLine size="40" />,
-    src: "#!",
+    logo: <RiGithubLine size="40" />,
+    src: "https://github.com/M0fen",
   },
 ];
