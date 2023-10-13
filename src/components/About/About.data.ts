@@ -2,14 +2,14 @@ export const dataCounter = [
   {
     id: 0,
     endCounter: 1,
-    text: 'Año de experiencia',
+    text: 'Year of experience',
     lineRight: true,
     lineRightMobile: true,
   },
   {
     id: 1,
     endCounter: 20,
-    text: 'Proyectos Realizados',
+    text: 'Done Projects',
     lineRight: true,
     lineRightMobile: false,
   },
@@ -43,7 +43,7 @@ export const dataAboutSkills = [
   },
   {
     id: 1,
-    text: 'Experiencia',
+    text: 'Experiencie',
     skills: [
       {
         title: 'Frontend Developer',
@@ -57,7 +57,7 @@ export const dataAboutSkills = [
   },
   {
     id: 2,
-    text: 'Estudios',
+    text: 'Knowledge',
     skills: [
       {
         title: 'Teilur',

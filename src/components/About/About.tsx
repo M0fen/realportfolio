@@ -1,6 +1,6 @@
 "use client"
 import { motionTransitionsAbout } from "@/utils/motionTransitions";
-import { Avatar } from "../Avatar";
+// import { Avatar } from "../Avatar";
 import { motion } from 'framer-motion'
 import { dataAboutSkills, dataCounter } from "./About.data";
 import CountUp from "react-countup";
@@ -12,7 +12,7 @@ export function About() {
 
     return (
         <div className="items-center min-h-screen px-6 mx-auto align-middle mt-36 md:mt-0 md:flex md:max-w-4xl pb-36 md:pb-0">
-            <Avatar />
+            {/* <Avatar /> */}
 
             <motion.div
                 initial={motionTransitionsAbout.initial}
@@ -20,7 +20,7 @@ export function About() {
                 transition={motionTransitionsAbout.transition}
             >
                 <h1 className="mb-6 md:text-4xl">Creating webs with <br /> <span className="text-secondary">Amazing designs</span></h1>
-                <p>Creating web with amazing design is not only a skill, but an art. It is the art of transforming ideas into reality, of making the impossible possible, of bringing magic to the web. </p>
+                <p>Creating web with amazing design is not only a skill, but an art. It is the art of transforming ideas into reality, of making the impossible possible, of bringing magic to the web.</p>
 
                 <div className="grid justify-between grid-cols-2 gap-3 my-8 md:flex md:grid-cols-4 md:gap-6">
                     {dataCounter.map(({ id, endCounter, text, lineRight, lineRightMobile }) => (
